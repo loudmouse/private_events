@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   get 'users/show'
 
  root 'welcome#index'
+
+ resources :users
 end
